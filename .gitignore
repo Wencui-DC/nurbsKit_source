@@ -1,5 +1,5 @@
-__pycache__
-.git
-.idea
+__pycache__/
+.git/
+.idea/
 .gitignore
 
