@@ -1,6 +1,6 @@
 import math
 import numpy as np
-from Support import bernstein, basis, visualization, common
+from support import bernstein, basis, visualization, common
 
 class bezier(bernstein, common):
     '''bezier class, including the rational bezier feature'''

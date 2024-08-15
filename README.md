@@ -1,11 +1,11 @@
 # Examples: more details please see demo.py
 
 ## sample1: create a bezier curve
-import BezierKit
+import nurbsKit
 
 ctrlpts = ([0, 2, 15], [2, 2, 10], [2, 0, 5], [0, 0, 0])
 
-bezier = BezierKit.bezier(ctrlpts)
+bezier = nurbsKit.bezier(ctrlpts)
 
 ## sample2: plot a bezier
 bezier.plot()

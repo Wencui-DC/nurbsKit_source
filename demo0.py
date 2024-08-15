@@ -1,4 +1,4 @@
-import BezierKit
+import nurbsKit
 import numpy as np
 
 ## sample1: create a bezier curve
@@ -10,7 +10,7 @@ ctrlpts = ([0, 2, 15], [2, 2, 10], [2, 0, 5], [0, 0, 0])
 
 
 # create a bezier
-bezier = BezierKit.bezier(ctrlpts)
+bezier = nurbsKit.bezier(ctrlpts)
 # adjust the weights
 bezier.weights = [1, 1/np.sqrt(2), 1, 2]
 

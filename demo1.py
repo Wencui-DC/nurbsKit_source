@@ -1,5 +1,5 @@
 # demonstration for NURBS
-import BezierKit
+import nurbsKit
 
 ctrlpts = [0, 2, 15], [2, 2, 10], [2, 0, 5], [0, 0, 0], [9, 9, 9]
 knots = [0, 0, 0, 0, .3, 1, 1, 1, 1]
@@ -8,7 +8,7 @@ degree = 3
 u = 0.76
 
 # create a nurbs
-nurbs = BezierKit.nurbs(ctrlpts, knots, weights, degree)
+nurbs = nurbsKit.nurbs(ctrlpts, knots, weights, degree)
 # adjust the weights after the nurbs initiated
 nurbs.weights = [2, 1, 1, 1, 3]
 
